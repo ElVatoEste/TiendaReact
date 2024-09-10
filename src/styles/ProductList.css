@@ -1,0 +1,9 @@
+/* Estilos para la lista de productos */
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  /* Ajusta el ancho mínimo a 300px y utiliza el espacio disponible */
+    gap: 20px;  /* Espacio entre las tarjetas de productos */
+    padding: 30px;
+    margin-top: 20px;
+    justify-content: center;  /* Centra el grid si hay espacio adicional */
+}

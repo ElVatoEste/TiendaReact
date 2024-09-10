@@ -1,0 +1,41 @@
+
+.navbar {
+    background: #333333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+    color: #666;
+    margin-right: 8px;
+}
+
+.search-bar {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex-grow: 1;
+    padding: 8px;
+    border-radius: 5px;
+}

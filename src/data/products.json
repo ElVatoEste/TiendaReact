@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Camisa Negra",
+    "description": "A stylish red shirt.",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "red",
+    "image": "../public/product1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Camisa Negra",
+    "description": "A stylish red shirt.",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "red",
+    "image": "../public/product1.jpeg"
+  },
+  {
+    "id": 1,
+    "name": "Camisa Negra",
+    "description": "A stylish red shirt.",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "red",
+    "image": "../public/product1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Camisa Negra",
+    "description": "A stylish red shirt.",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "red",
+    "image": "../public/product1.jpeg"
+  },
+  {
+    "id": 1,
+    "name": "Camisa Negra",
+    "description": "A stylish red shirt.",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "red",
+    "image": "../public/product1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Camisa Negra",
+    "description": "A stylish red shirt.",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "red",
+    "image": "../public/product1.jpeg"
+  },  {
+  "id": 1,
+  "name": "Camisa Negra",
+  "description": "A stylish red shirt.",
+  "price": 20,
+  "sizes": ["S"],
+  "color": "red",
+  "image": "../public/product1.jpeg"
+},
+  {
+    "id": 2,
+    "name": "Camisa Negra",
+    "description": "A stylish red shirt.",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "red",
+    "image": "../public/product1.jpeg"
+  },  {
+  "id": 1,
+  "name": "Camisa Negra",
+  "description": "A stylish red shirt.",
+  "price": 20,
+  "sizes": ["S"],
+  "color": "red",
+  "image": "../public/product1.jpeg"
+},
+  {
+    "id": 2,
+    "name": "Camisa Negra",
+    "description": "A stylish red shirt.",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "red",
+    "image": "../public/product1.jpeg"
+  }
+]
