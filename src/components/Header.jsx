@@ -14,7 +14,8 @@ function Header({ onSearch }) {
 
     return (
         <header className="navbar">
-            <h1 className="logo">Cloth Shop</h1>
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
+            <h1 className="logo">Martha's Shop</h1>
             <div className="search-container">
                 <FaSearch className="search-icon" />
                 <input

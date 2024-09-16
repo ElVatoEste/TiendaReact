@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "Vestido Casual Azul",
-    "description": "Vestido casual con forma en V, ideal para días soleados.",
+    "description": "Vestido casual con forma en V",
     "price": 20,
     "sizes": ["S"],
     "color": "blue",
