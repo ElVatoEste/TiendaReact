@@ -43,8 +43,8 @@
 @media (max-width: 768px) {
     .navbar {
         flex-direction: column; /* Apilar logo y barra de búsqueda verticalmente */
-        align-items: flex-start; /* Alinear los elementos a la izquierda */
-        padding: 10px 20px; /* Reducir el padding en pantallas pequeñas */
+        align-items: center; /* Alinear los elementos a la izquierda */
+        padding: 10px 30px; /* Reducir el padding en pantallas pequeñas */
     }
 
     .logo {

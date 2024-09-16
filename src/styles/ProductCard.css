@@ -1,7 +1,7 @@
 .product-card {
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 15px 25px rgba(182, 30, 253, 0.18);
+    box-shadow: 0 15px 25px rgba(182, 182, 182, 0.51);
     padding: 20px;
     text-align: left;
     transition: transform 0.2s;
