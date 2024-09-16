@@ -1,4 +1,3 @@
-
 .navbar {
     background: #333333;
     color: white;
@@ -38,4 +37,47 @@
     flex-grow: 1;
     padding: 8px;
     border-radius: 5px;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Apilar logo y barra de búsqueda verticalmente */
+        align-items: flex-start; /* Alinear los elementos a la izquierda */
+        padding: 10px 20px; /* Reducir el padding en pantallas pequeñas */
+    }
+
+    .logo {
+        font-size: 28px; /* Reducir el tamaño del logo */
+        margin-bottom: 10px; /* Añadir margen inferior para separar el logo de la búsqueda */
+    }
+
+    .search-container {
+        width: 100%; /* Barra de búsqueda ocupará todo el ancho */
+        padding: 5px 5px; /* Reducir el padding */
+    }
+
+    .search-bar {
+        font-size: 14px; /* Reducir el tamaño del texto en la barra de búsqueda */
+        padding: 6px; /* Ajustar el padding para que no sea muy grande en móviles */
+    }
+}
+
+/* Más pequeño, por ejemplo, pantallas de 500px o menos */
+@media (max-width: 500px) {
+    .navbar {
+        padding: 10px; /* Ajustar el padding */
+    }
+
+    .logo {
+        font-size: 24px; /* Reducir más el tamaño del logo */
+    }
+
+    .search-container {
+        padding: 5px; /* Mantener el espacio reducido */
+    }
+
+    .search-bar {
+        font-size: 12px; /* Reducir un poco más el tamaño del texto */
+    }
 }
