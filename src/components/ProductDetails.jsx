@@ -8,22 +8,21 @@ function ProductDetails() {
 
     if (!product) return <h2>Product not found</h2>;
 
-    console.log("Image URL:", product.image); // Log para verificar la URL de la imagen
-
     return (
         <div className="product-details">
             <img
-                src={`${product.image}`}
+                src={`/${product.image}`}
                 alt={product.name}
                 className="product-image"
             />
-            <p>{product.name}</p>
-            <p>{product.description}</p>
-            <p>Price: ${product.price}</p>
-            <p>Available sizes: {product.sizes.join(', ')}</p>
+            <div className="product-info">
+                <h2 className="product-name">{product.name}</h2>
+                <p className="product-description">{product.description}</p>
+                <p className="product-price">Price: <span>${product.price}</span></p>
+                <p className="product-sizes">Available sizes: <span>{product.sizes.join(', ')}</span></p>
+            </div>
         </div>
     );
 }
-
 
 export default ProductDetails;

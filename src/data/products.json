@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Camisa Negra",
-    "description": "A stylish red shirt.",
+    "name": "Camisa Roja Clásica",
+    "description": "Camisa roja de manga larga para ocasiones casuales.",
     "price": 20,
     "sizes": ["S"],
     "color": "red",
@@ -10,35 +10,35 @@
   },
   {
     "id": 2,
-    "name": "Camisa Azul",
-    "description": "Vestido casual con forma en V",
+    "name": "Vestido Casual Azul",
+    "description": "Vestido casual con forma en V, ideal para días soleados.",
     "price": 20,
     "sizes": ["S"],
-    "color": "red",
+    "color": "blue",
     "image": "product2.png"
   },
   {
     "id": 3,
-    "name": "Camisa Negra",
-    "description": "Traje elegante para hombre",
+    "name": "Camisa de Hombre Elegante",
+    "description": "Camisa negra elegante para eventos formales y negocios.",
     "price": 20,
     "sizes": ["S"],
-    "color": "blue",
+    "color": "black",
     "image": "product3.png"
   },
   {
     "id": 4,
-    "name": "Camisa Negra",
-    "description": "A stylish red shirt.",
+    "name": "Camisa Moderna Negra",
+    "description": "Camisa negra moderna con detalles brillantes.",
     "price": 20,
     "sizes": ["S"],
-    "color": "red",
+    "color": "black",
     "image": "product1.jpeg"
   },
   {
     "id": 5,
-    "name": "Camisa Negra",
-    "description": "A stylish red shirt.",
+    "name": "Blusa Roja Casual",
+    "description": "Blusa roja ligera y cómoda para el uso diario.",
     "price": 20,
     "sizes": ["S"],
     "color": "red",

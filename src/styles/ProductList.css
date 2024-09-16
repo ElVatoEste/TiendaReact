@@ -10,6 +10,8 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Mantén la sombra */
 }
 
+
+
 /* Para pantallas más pequeñas (responsive) */
 @media (max-width: 768px) {
     .product-list {
