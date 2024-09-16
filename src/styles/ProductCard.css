@@ -51,6 +51,7 @@
     font-weight: bold;
     margin-bottom: 15px;
     color: #333;
+    margin-top: auto; /* Asegura que el precio se mantenga en la parte inferior del contenido */
 }
 
 .info-button {
@@ -63,8 +64,26 @@
     display: inline-block;
     transition: background-color 0.3s;
     text-align: center;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    margin-top: auto; /* Empuja el botón hacia el final del contenedor */
+
+
 }
 
 .info-button:hover {
-    background-color: rgb(76, 73, 73);
+    background-color: #333; /* Un gris más claro mejora la accesibilidad */
 }
+
+@media (max-width: 768px) {
+    .product-card {
+        flex-direction: column;
+        align-items: center; /* Centra el contenido en pantallas pequeñas */
+    }
+
+    .product-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+
