@@ -1,9 +1,18 @@
 /* Estilos para la lista de productos */
 .product-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));  /* Ajusta el ancho mínimo a 300px y utiliza el espacio disponible */
-    gap: 20px;  /* Espacio entre las tarjetas de productos */
-    padding: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Aumenta el mínimo a 400px */
+    gap: 20px; /* Incrementa el espacio entre tarjetas */
+    padding: 20px;
     margin-top: 20px;
-    justify-content: center;  /* Centra el grid si hay espacio adicional */
+    justify-content: center;
+    border-radius: 10px;  /* Mantén los bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Mantén la sombra */
+}
+
+/* Para pantallas más pequeñas (responsive) */
+@media (max-width: 768px) {
+    .product-list {
+        grid-template-columns: 1fr; /* Una sola columna en pantallas más pequeñas */
+    }
 }

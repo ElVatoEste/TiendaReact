@@ -15,7 +15,7 @@ function ProductCard({ product }) {
                 <p className="product-description">{product.description}</p>
                 <p className="product-price">${product.price}</p>
                 <Link to={`/product/${product.id}`} className="info-button">
-                    Información
+                    Info
                 </Link>
             </div>
         </div>

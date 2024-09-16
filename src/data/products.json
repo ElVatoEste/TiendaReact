@@ -9,7 +9,25 @@
     "image": "product1.jpeg"
   },
   {
-    "id": 1,
+    "id": 2,
+    "name": "Camisa Azul",
+    "description": "Vestido casual con forma en V",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "red",
+    "image": "product2.png"
+  },
+  {
+    "id": 3,
+    "name": "Camisa Negra",
+    "description": "Traje elegante para hombre",
+    "price": 20,
+    "sizes": ["S"],
+    "color": "blue",
+    "image": "product3.png"
+  },
+  {
+    "id": 4,
     "name": "Camisa Negra",
     "description": "A stylish red shirt.",
     "price": 20,
@@ -18,61 +36,7 @@
     "image": "product1.jpeg"
   },
   {
-    "id": 1,
-    "name": "Camisa Negra",
-    "description": "A stylish red shirt.",
-    "price": 20,
-    "sizes": ["S"],
-    "color": "red",
-    "image": "product1.jpeg"
-  },
-  {
-    "id": 1,
-    "name": "Camisa Negra",
-    "description": "A stylish red shirt.",
-    "price": 20,
-    "sizes": ["S"],
-    "color": "red",
-    "image": "product1.jpeg"
-  },
-  {
-    "id": 1,
-    "name": "Camisa Negra",
-    "description": "A stylish red shirt.",
-    "price": 20,
-    "sizes": ["S"],
-    "color": "red",
-    "image": "product1.jpeg"
-  },
-  {
-    "id": 1,
-    "name": "Camisa Negra",
-    "description": "A stylish red shirt.",
-    "price": 20,
-    "sizes": ["S"],
-    "color": "red",
-    "image": "product1.jpeg"
-  },
-  {
-    "id": 1,
-    "name": "Camisa Negra",
-    "description": "A stylish red shirt.",
-    "price": 20,
-    "sizes": ["S"],
-    "color": "red",
-    "image": "product1.jpeg"
-  },
-  {
-    "id": 1,
-    "name": "Camisa Negra",
-    "description": "A stylish red shirt.",
-    "price": 20,
-    "sizes": ["S"],
-    "color": "red",
-    "image": "product1.jpeg"
-  },
-  {
-    "id": 1,
+    "id": 5,
     "name": "Camisa Negra",
     "description": "A stylish red shirt.",
     "price": 20,
