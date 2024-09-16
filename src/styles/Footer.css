@@ -1,0 +1,51 @@
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.footer-item i {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #1eb980; /* Cambia el color del icono */
+}
+
+.footer-item a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-item a:hover {
+    color: #1eb980;
+}
+
+.footer-copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
