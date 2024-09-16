@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import products from '../data/products.json';
 import '../styles/ProductDetails.css';
@@ -5,6 +6,11 @@ import '../styles/ProductDetails.css';
 function ProductDetails() {
     const { id } = useParams();
     const product = products.find(prod => prod.id === parseInt(id));
+
+    // Usar useEffect para desplazarse hacia arriba cuando se cargue el componente
+    useEffect(() => {
+        window.scrollTo(0, 0); // Desplazarse hasta la parte superior de la página
+    }, [id]); // Se ejecutará cada vez que el id cambie
 
     if (!product) return <h2>Product not found</h2>;
 
